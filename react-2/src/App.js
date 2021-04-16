@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import Mascotas from "./Mascotas";
+import Pagina from "./Pagina";
 
 function App() {
-  return <Mascotas/>;
+  return <Pagina/>;
 }
 
 export default App;

@@ -1,6 +1,6 @@
 import React from "react";
 
-function Mascotas(){
+function Pagina(){
 
     return(
     <>
@@ -114,4 +114,4 @@ function Mascotas(){
     );
 } 
 
-export default  Mascotas;
+export default  Pagina;
