@@ -1,5 +1,6 @@
 import React from "react";
 import "./ActionsMenu.css";
+import Search from "../Search";
 
 function ActionsMenu({ cambiarModal = () => {}, titulo }){
     return (
@@ -15,6 +16,7 @@ function ActionsMenu({ cambiarModal = () => {}, titulo }){
                     >
                     Nueva
                     </button>
+                    <Search />
              </div>
         </div>
     );
